@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'isans';
+  src: url('./../public/font/IRANsans/IRANSansWeb.ttf');
+}
+
+*{
+  font-family: 'isans';
+}

@@ -1,0 +1,159 @@
+.footer {
+  width: 100%;
+  margin-top: 3rem;
+  color: white;
+  &-top {
+    height: 50vh;
+    width: 100%;
+    background-color: #151515;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    &__box {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+    .box-one {
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        direction: ltr;
+        &-img {
+          width: 50px;
+        }
+        &-text {
+          font-size: 25px;
+          font-weight: bold;
+        }
+      }
+      .address {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        font-size: 15px;
+      }
+      .socials {
+        display: flex;
+        gap: 0.3rem;
+        color: white;
+        &-icon {
+          width: 35px;
+          height: 35px;
+          background: rgb(55, 55, 55);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 20px;
+          border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          transition: 0.2s;
+          -webkit-transition: 0.2s;
+          -moz-transition: 0.2s;
+          -ms-transition: 0.2s;
+          -o-transition: 0.2s;
+          cursor: pointer;
+          &:hover {
+            background: rgb(255, 208, 0);
+            color: black;
+          }
+        }
+      }
+    }
+    .box-list {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      gap: 0.5rem;
+      align-items: flex-start;
+      li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.2rem;
+        cursor: pointer;
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+        font-size: 14px;
+        &:hover {
+          color: rgb(255, 208, 0);
+        }
+      }
+      &__icon {
+        color: rgb(255, 208, 0);
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+    .box-four {
+      &__text {
+        font-size: 14px;
+      }
+      &__contact {
+        width: 100%;
+        overflow: hidden;
+        height: 2.5rem;
+        background: white;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+      }
+      &__input {
+        border: none;
+        outline: none;
+        width: 70%;
+        padding: 0.2rem;
+      }
+      &__btn {
+        background: rgb(255, 208, 0);
+        width: 30%;
+        height: 100%;
+        border: none;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+    .box-title {
+      font-weight: bold;
+      font-size: 15px;
+    }
+  }
+  &-bottom {
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid rgba(128, 128, 128, 0.654);
+  }
+
+  .developer-name {
+    color: rgb(255, 208, 0);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .footer-top {
+    flex-wrap: wrap; 
+        height: max-content;
+        gap: 2rem;
+    &__box {
+      width: 300px;
+    }
+  }
+}

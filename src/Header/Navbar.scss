@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  list-style: none;
+  flex-basis: 50%;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  &-item {
+    cursor: pointer;
+    &:hover {
+      color: rgb(255, 205, 5);
+    }
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .list-item {
+    font-size: 14px;
+  }
+  .header-top__btn {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 855px) {
+
+}

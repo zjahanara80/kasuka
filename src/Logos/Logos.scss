@@ -1,0 +1,46 @@
+.logos-parent {
+  cursor: pointer;
+  width: 100%;
+  img {
+    width: 120px;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+.swiper-pagination-bullet-active {
+  background-color: orange;
+}
+
+.swiper {
+  padding: 1rem 0 !important;
+  gap: 1rem;
+  .swiper-pagination {
+    top: 80% !important;
+  }
+}
+
+.swiper {
+}
+
+@media screen and (max-width: 840px) {
+  .logos-parent {
+    img {
+      width: 100px;
+    }
+  }
+  .swiper-wrapper {
+      gap: 50px !important;
+    }
+    .swiper-pagination-bullet {
+      width: 9px;
+      height: 9px;
+    }
+}
+@media screen and (max-width: 620px) {
+  .swiper-wrapper {
+      gap: 4rem;
+    }
+}

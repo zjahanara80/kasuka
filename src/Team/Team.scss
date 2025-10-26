@@ -1,0 +1,95 @@
+.team {
+  margin: 3rem auto;
+  width: 100%;
+  .box-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-top: 2rem;
+    .box {
+      flex-basis: 22%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      border-radius: 5px;
+      box-shadow: 0 0 3px rgba(128, 128, 128, 0.541);
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      &-img__wrapper {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        position: relative;
+        .icons-wrapper {
+          position: absolute;
+          bottom: 3%;
+          right: 20%;
+          display: flex;
+          gap: 0.3rem;
+          .box-icon {
+            font-size: 20px;
+            width: 40px;
+            background: rgba(255, 255, 255, 0.668);
+            height: 40px;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+              background-color: rgb(255, 179, 0);
+            }
+          }
+        }
+        .icons-display-style {
+          animation: displayStyle 0.2s 1;
+          -webkit-animation: displayStyle 0.2s 1;
+        }
+      }
+      &-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      &-name {
+        font-weight: bold;
+        font-size: 19px;
+        padding-right: 0.8rem;
+      }
+      &-role {
+        color: grey;
+        margin-top: -2%;
+        font-size: 15px;
+        padding-right: 0.8rem;
+        padding-bottom: 1.3rem;
+      }
+    }
+  }
+}
+
+@keyframes displayStyle {
+  from {
+    bottom: -10%;
+    opacity: 0;
+  }
+  to {
+    bottom: 3%;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .box-wrapper {
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 300px !important;
+    flex-basis: unset !important;
+  }
+}
