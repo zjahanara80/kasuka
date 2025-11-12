@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./preview.png" width="600" alt="Kasuka Landing Page Preview">
 </p>
-
+developed by Zeynab Jahanara
 # Kasuka Landing Page
 
 **Kasuka** is a modern, responsive landing page built with **React** and **Vite**, designed to showcase products, services, or any content in a clean and visually appealing layout. The project is hosted on **GitHub Pages**.
@@ -105,5 +105,5 @@ HTML, CSS, JavaScript
 This project is licensed under the MIT License. See the LICENSE
  file for details.
 
-developed by Zeynab Jahanara
+
 
