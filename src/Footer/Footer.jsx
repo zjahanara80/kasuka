@@ -47,7 +47,7 @@ export default function Footer() {
         <BoxRender className={"box-one"}>
           <div className="logo">
             <div className="logo-text">KASUKA</div>
-            <ImageCreator src={"/imgs/logo.png"} className={"logo-img"} />
+            <ImageCreator src={"/kasuka/imgs/logo.png"} className={"logo-img"} />
           </div>
           <div className="address">
             {addressInfos.map((address) => {

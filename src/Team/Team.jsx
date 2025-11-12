@@ -53,10 +53,10 @@ class BoxCreator extends React.Component {
 
 const Team = () => {
   const boxInfos = [
-    { name: "والتر وایت", role: "مدیر ارشد اجرایی", img: "/imgs/team-1.jpg" },
-    { name: "سارا جونسون", role: "مدیر تولید", img: "/imgs/team-2.jpg" },
-    { name: "ویلیام اندرسون", role: "CTO", img: "/imgs/team-3.jpg" },
-    { name: "آماندا جپسون", role: "حسابدار", img: "/imgs/team-4.jpg" },
+    { name: "والتر وایت", role: "مدیر ارشد اجرایی", img: "/kasuka/imgs/team-1.jpg" },
+    { name: "سارا جونسون", role: "مدیر تولید", img: "/kasuka/imgs/team-2.jpg" },
+    { name: "ویلیام اندرسون", role: "CTO", img: "/kasuka/imgs/team-3.jpg" },
+    { name: "آماندا جپسون", role: "حسابدار", img: "/kasuka/imgs/team-4.jpg" },
   ];
   return (
     <div className="team">

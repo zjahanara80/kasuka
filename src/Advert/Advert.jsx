@@ -26,7 +26,7 @@ class Advert extends Component {
       ]
     return (
         <div className="advert">
-            <img src="/imgs/features.jpg" alt="" className="advert-right"/>
+            <img src="/kasuka/imgs/features.jpg" alt="" className="advert-right"/>
             <ul className="advert-left">
                 {
                     adverts.map(adv => {

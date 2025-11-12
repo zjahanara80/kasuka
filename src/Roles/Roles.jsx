@@ -25,32 +25,32 @@ export default function Roles() {
     {
       name: "مت براندوز",
       role: "کارآفرین",
-      img: "/imgs/testimonials-1.jpg",
+      img: "/kasuka/imgs/testimonials-1.jpg",
       text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت ",
     },
     {
       name: "جان لارسون",
       role: "پایه گذار",
-      img: "/imgs/testimonials-2.jpg",
+      img: "/kasuka/imgs/testimonials-2.jpg",
       text: "    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت ",
     },
     {
       name: "ساول گارن",
       role: "فریلنسر",
       text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت ",
-      img: "/imgs/testimonials-3.jpg",
+      img: "/kasuka/imgs/testimonials-3.jpg",
     },
     {
       name: "ینا کالریس",
       role: "طراح",
       text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت ",
-      img: "/imgs/testimonials-4.jpg",
+      img: "/kasuka/imgs/testimonials-4.jpg",
     },
     {
       name: "مت براندوم",
       role: "صاحب فروشگاه",
       text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت ",
-      img: "/imgs/testimonials-5.jpg",
+      img: "/kasuka/imgs/testimonials-5.jpg",
     },
   ];
 

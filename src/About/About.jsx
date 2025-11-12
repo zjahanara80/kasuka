@@ -39,7 +39,7 @@ export default function About() {
           ایجاد وفاداری در مشتریان یک برند ارایه می گردد.
         </p>
       </div>
-      <img src="./public/imgs/about.jpg" className="about-left" />
+      <img src="/kasuka/imgs/about.jpg" className="about-left" />
     </div>
   );
 }
