@@ -19,27 +19,6 @@ developed by Zeynab Jahanara
 
 ---
 
-## Project Structure
-kasuka/
-├─ public/
-│ ├─ imgs/ # All static images
-│ └─ dependencies/ # FontAwesome and other libraries
-├─ src/
-│ ├─ components/ # React components
-│ ├─ App.jsx
-│ └─ main.jsx
-├─ index.html
-├─ package.json
-├─ vite.config.js
-└─ README.md
-
-
-- **public**: Contains static assets like images and external JS/CSS files. Files here are copied directly to the build output.
-- **src**: Contains all React components and app logic.
-- **vite.config.js**: Configuration file for Vite, including base path for GitHub Pages deployment.
-
----
-
 ##  Getting Started
 
 ### 1. Clone the repository
@@ -97,10 +76,6 @@ BoxIcons
 Bootstrap Icons
 
 HTML, CSS, JavaScript
-
-📷 Preview
-<p align="center"> <img src="./preview.png" width="600" alt="Kasuka Landing Page Preview"> </p>
-📄 License
 
 This project is licensed under the MIT License. See the LICENSE
  file for details.
