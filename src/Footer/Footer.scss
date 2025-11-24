@@ -156,4 +156,7 @@
       width: 300px;
     }
   }
+  .contact-datails__userContact-name  , .contact-datails__userContact-email{
+    flex-basis: 100% !important; 
+  }
 }

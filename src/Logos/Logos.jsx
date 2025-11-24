@@ -11,13 +11,13 @@ const LogoItem = ({src}) => {
 
 export default function Logos() {
  const imagesArray = [
-    "/kasuka/imgs/client-1.png",
-    "/kasuka/imgs/client-2.png",
-    "/kasuka/imgs/client-3.png",
-    "/kasuka/imgs/client-4.png",
-    "/kasuka/imgs/client-5.png",
-    "/kasuka/imgs/client-7.png",
-    "/kasuka/imgs/client-8.png",
+    "/imgs/client-1.png",
+    "/imgs/client-2.png",
+    "/imgs/client-3.png",
+    "/imgs/client-4.png",
+    "/imgs/client-5.png",
+    "/imgs/client-7.png",
+    "/imgs/client-8.png",
   ];
 
   return (

@@ -9,7 +9,7 @@ export default function Header() {
     <header className='header'>
         <div className='header-top'>
             <div className='header-top__logo'>
-                <ImageCreator src="/kasuka/imgs/logo.png" className='header-top__logo-img'/>
+                <ImageCreator src="/imgs/logo.png" className='header-top__logo-img'/>
                 <span className='header-top__logo-text'>KASUKA</span>
             </div>
             <Navbar />

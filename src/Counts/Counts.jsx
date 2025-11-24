@@ -45,7 +45,7 @@ export default function Counts() {
       <ImageCreator
         className="count-img"
         alt="count-image"
-        src="/kasuka/imgs/counts-img.jpg"
+        src="/imgs/counts-img.jpg"
       />
       <div className="count-left">
       <SectionTitle className="count-left__title">
