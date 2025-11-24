@@ -53,6 +53,7 @@
 @media screen and (max-width: 800px) {
 .banner {
   gap: 1rem;
+  height: max-content;
   &-text {
     font-size: 14px;
   }

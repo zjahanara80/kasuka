@@ -62,7 +62,12 @@
 }
   .swiper-wrapper {
       gap: 0;
-    }
+      transform: translate3d(0, 0px, 0px) !important;
+      -webkit-transform: translate3d(0, 0px, 0px) !important;
+      -moz-transform: translate3d(0, 0px, 0px) !important;
+      -ms-transform: translate3d(0, 0px, 0px) !important;
+      -o-transform: translate3d(0, 0px, 0px) !important;
+}
     .swiper-pagination-bullet {
       width: 9px;
       height: 9px;
